@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<mavlink>
+  <!-- XML file for prototyping definitions for common.xml -->
+  <include>common.xml</include>
+  <version>0</version>
+  <dialect>0</dialect>
+  <messages>
+    <message id="12345" name="RIGID">
+      <description>Pressure data</description>
+      <field type="uint8_t" name="number1">Number 1</field>
+      <field type="uint8_t" name="number2">Number 2</field>
+    </message>
+  </messages>
+</mavlink>
