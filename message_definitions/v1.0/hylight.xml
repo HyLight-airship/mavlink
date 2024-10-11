@@ -16,5 +16,4 @@
       <field type="float" name="differential">Differential Pressure</field>
     </message>
   </messages>
-  </messages>
 </mavlink>
