@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<mavlink>
+  <!-- XML file for prototyping definitions for common.xml -->
+  <include>common.xml</include>
+  <version>0</version>
+  <dialect>0</dialect>
+  <messages>
+    <message id="1154" name="RIGID_DATA">
+      <description>Send differential pressure sensor data to QGC over Mavlink
+      </description>
+      <field type="uint64_t" name="timestamp">Timestamp</field>
+      <field type="float[3]" name="pressure_in">Pressure In</field>
+      <field type="float[3]" name="pressure_out">Pressure Out</field>
+      <field type="float" name="mean_in">Mean In Pressure</field>
+      <field type="float" name="mean_out">Mean Out Pressure</field>
+      <field type="float" name="differential">Differential Pressure</field>
+    </message>
+  </messages>
+  </messages>
+</mavlink>
