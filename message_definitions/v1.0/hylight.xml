@@ -5,7 +5,7 @@
   <version>0</version>
   <dialect>0</dialect>
   <messages>
-    <message id="1154" name="RIGID_DATA">
+    <message id="203" name="RIGID_DATA">
       <description>Differential pressure sensors measurement between atmospheric pressure and airship inner pressure</description>
       <field type="uint64_t" name="timestamp">Timestamp</field>
       <field type="float[3]" name="pressure_in">Pressure In</field>
@@ -14,7 +14,7 @@
       <field type="float" name="mean_out">Mean Out Pressure</field>
       <field type="float" name="differential">Differential Pressure</field>
     </message>
-    <message id="1155" name="WIND_SENSOR">
+    <message id="202" name="WIND_SENSOR">
       <description>Airspeed sensor's measurement</description>
       <field type="uint64_t" name="timestamp">Timestamp</field>
       <field type="float" name="wind_speed_3d">Wind speed norm 3D</field>
